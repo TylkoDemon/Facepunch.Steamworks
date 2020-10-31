@@ -81,11 +81,6 @@ namespace Steamworks
 		}
 	}
 
-	internal class MonoPInvokeCallbackAttribute : Attribute
-	{
-		public MonoPInvokeCallbackAttribute() { }
-	}
-
 	/// <summary>
 	/// Prevent unity from stripping shit we depend on
 	/// https://docs.unity3d.com/Manual/ManagedCodeStripping.html
