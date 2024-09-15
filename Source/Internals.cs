@@ -2,3 +2,4 @@
 
 [assembly: InternalsVisibleTo("JEM.QNet.Layers.Steamworks")]
 [assembly: InternalsVisibleTo("HoursAfterMidnight.Platforms.Desktop")]
+[assembly: InternalsVisibleTo("ArcaneThrone.Platforms.Desktop")]
