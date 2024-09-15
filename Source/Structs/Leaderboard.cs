@@ -106,9 +106,9 @@ namespace Steamworks.Data
 		/// <summary>
 		/// Used to retrieve all leaderboard entries for friends of the current user
 		/// </summary>
-		public async Task<LeaderboardEntry[]> GetScoresFromFriendsAsync()
+		public async Task<LeaderboardEntry[]> GetScoresFromFriendsAsync(int count, int offset = 1 )
 		{
-			var r = await SteamUserStats.Internal.DownloadLeaderboardEntries( Id, LeaderboardDataRequest.Friends, 0, 0 );
+			var r = await SteamUserStats.Internal.DownloadLeaderboardEntries( Id, LeaderboardDataRequest.Friends, offset, offset + count - 1 );
 			if ( !r.HasValue )
 				return null;
 
