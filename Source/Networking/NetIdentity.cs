@@ -33,6 +33,12 @@ namespace Steamworks.Data
 
 		public bool IsSteamId => type == IdentityType.SteamID;
 		public bool IsIpAddress => type == IdentityType.IPAddress;
+        public bool IsGenericString => type == IdentityType.GenericString;
+        
+        public void SetGenericString(string str)
+        {
+            InternalSetGenericString(ref this, str);
+        }
 
 		/// <summary>
 		/// Return true if this identity is localhost
