@@ -5,3 +5,4 @@
 [assembly: InternalsVisibleTo("ArcaneThrone.Platforms.Desktop")]
 [assembly: InternalsVisibleTo("HolyCrusader.Platforms.Desktop")]
 [assembly: InternalsVisibleTo("TicTacBoom.Platforms.Desktop")]
+[assembly: InternalsVisibleTo("SurvivalGame.Platforms.Desktop")]
