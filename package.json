@@ -3,7 +3,7 @@
   "version": "2022.3.0",
   "displayName": "Steamworks",
   "description": "Steamworks integration for Unity made by Facepunch",
-  "unity": "2022.3",
+  "unity": "6000.3",
   "license": "MIT",
   "dependencies": {},
   "keywords": [
