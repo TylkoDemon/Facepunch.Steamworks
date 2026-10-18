@@ -8,3 +8,5 @@ Tested With
  - Unity 2021.3.8f1
  - Unity 2022.3.28f1
  - Unity 2023.2.20f1
+
+[Documentation](Documentation~/index.md) collects the package manual and design references.
